@@ -3,6 +3,14 @@
   "description": "Shared modules for NestJS",
   "version": "1.0.7",
   "author": "Bùi Đức Nhật <nhaths4701@gmail.com> (https://github.com/buiducnhat)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/buiducnhat/nestjs-shared.git"
+  },
+  "bugs": {
+    "url": "https://github.com/buiducnhat/nestjs-shared.git/issues"
+  },
+  "homepage": "https://github.com/buiducnhat/nestjs-shared.git#readme",
   "keywords": [
     "nestjs",
     "shared"
