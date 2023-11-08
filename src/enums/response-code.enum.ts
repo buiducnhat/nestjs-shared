@@ -7,6 +7,7 @@ export enum EResponseCode {
   UnauthorizedError = 3,
   ForbiddenError = 4,
   NotFoundError = 5,
+  TimeoutError = 6,
 
   // Auth error
   AuthEmailExist = 10001,
@@ -14,4 +15,5 @@ export enum EResponseCode {
   AuthEmailNotExist = 10003,
   AuthUsernameNotExist = 10004,
   AuthWrongPassword = 10005,
+  AuthUsernameOrEmailNotExist = 10006,
 }

@@ -7,21 +7,21 @@ import {
 } from 'typeorm';
 
 export class FullAuditedEntity extends BaseEntity {
-  @CreateDateColumn()
+  @CreateDateColumn({ type: 'timestamp', default: () => 'CURRENT_TIMESTAMP' })
   createdAt: Date;
 
-  @Column()
+  @Column({ type: 'bigint' })
   createdById: number;
 
   @UpdateDateColumn({ type: 'timestamp', nullable: true })
   updatedAt?: Date;
 
-  @Column({ nullable: true })
+  @Column({ type: 'bigint', nullable: true })
   updatedById?: number;
 
   @DeleteDateColumn({ type: 'timestamp', nullable: true })
   deletedAt?: Date;
 
-  @Column({ nullable: true })
+  @Column({ type: 'bigint', nullable: true })
   deletedById?: number;
 }

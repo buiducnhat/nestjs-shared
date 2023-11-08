@@ -1,7 +1,7 @@
 {
   "name": "@buiducnhat/nestjs-shared",
   "description": "Shared modules for NestJS",
-  "version": "1.0.8",
+  "version": "1.0.10",
   "author": "Bùi Đức Nhật <nhaths4701@gmail.com> (https://github.com/buiducnhat)",
   "repository": {
     "type": "git",
